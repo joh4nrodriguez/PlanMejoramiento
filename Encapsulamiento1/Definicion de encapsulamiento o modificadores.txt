@@ -1,0 +1,116 @@
+
+Existen cuatro tipos de modificadores públic protected sin modificador es decir que no tenga ninguna
+
+palabra por aquí algo así y Privat o privado.
+
+En qué consisten.
+
+Dependiendo del modificador que tenga el método o que tenga la variable ya va identificar si esa variable
+
+o ese método puede ser visto desde fuera de la clase o quién puede ver ese método a qué me refiero con
+
+esto por ejemplo vamos a ir aquel código y como ya sabes en la clase media tenemos tres campos que son
+
+título Género y duración entonces vamos a Iramain y vamos a crear un objeto de tipo media
+
+donde nos va a pedir esos tres campos primero el título
+
+el género y la duración.
+
+Y si recuerdo de elecciones pasadas podemos hacer esto
+
+y lo mismo con el género y la duración pero como recordarás en elecciones pasadas te mencioné que lo
+
+recomendable no es utilizar los campos directamente sino utilizarlos a través de meters y CEPES.
+
+Aquí ya tenemos los gaiteros para el título el género y la duración.
+
+Pero entonces cómo hacemos para que un programador incauto como prevenimos que utilice de esta manera
+
+los campos.
+
+Bueno pues lo que podemos hacer es encapsular la clase para evitar que desde Main o desde cualquier
+
+otra clase se puedan ver estos estos campos directamente es decir obligar al programador a que utilice
+
+los juguetes a fuerzas y cómo vamos a hacer esto.
+
+Bueno vamos a ir a la tableta y aquí vemos que está el modificador Private y lo que dice es que al usar
+
+este modificador en una variable o en un método nadie va a poder ver esa variable o ese método solamente
+
+lo va a poder ver lo que esté dentro de la misma clase.
+
+Vamos a ver cómo funciona esto.
+
+Vamos de nuevo al código y vamos a agregar el modificador Private para los tres campos
+
+entonces escribimos modificador tipo de variable y el nombre de la variable y si vamos a main nos va
+
+a parecer un error y nos va a decir que el título tiene acceso privado y por lo tanto no lo podemos
+
+acceder desde otra clase.
+
+Entonces aquí lo que estamos haciendo como te dije es que vamos a obligar a que fuerzas el programador
+
+que tome nuestro Código va a tener que utilizar un Getter
+
+ahora vamos a ir de nuevo a la tabla para mostrarte qué significa cada uno de estos de estas columnas.
+
+El primero es pakete cuando tenemos Private nadie del paquete puede ver a ese método o a esa variable
+
+en este caso pues el paquete se refiere a este a todo lo que esté dentro de cómputo Company tampoco
+
+lo van a poder ver la subclases es decir los hijos que en este caso son Media y Series no pueden ver ese
+
+tipo de variables y si queremos utilizarlas aquí por ejemplo si creamos aquí una clase media
+
+vamos a dejarlo todo vacío para más rapidez y tampoco vamos a poder usar MIDI apuntó Taylor.
+
+Si observas ni siquiera nos autocompletar y si lo queremos poner cuando va a parecer que Taylor es privado
+
+en mi día y de vamos a la tabla y nadie del mundo puede ver esa variable a qué me refiero con el mundo.
+
+Puede ser que nuestro código sea simplemente una librería que va a ser utilizada dentro de códigos de
+
+otras personas.
+
+Entonces al hacer una variable un método privado es todo lo que va a ser es que pues esas otras personas
+
+que utilicen nuestro código no van a poder utilizar esos métodos y esas variables.
+
+Que ahora que ya conoces que son estos.
+
+Estas columnas vamos a dar un repaso a los modificadores.
+
+En primer lugar tenemos públic que es el que hemos estado utilizando a lo largo de todo el curso y cuando
+
+una variable un método tiene modificador públic lo puede ver todo nuestro código todas las clases de
+
+esa clase y todo el mundo si alguien toma nuestro código y lo incrusta en el suyo va a poder modificar
+
+esas variables y utilizar esos métodos si tenemos protected todo nuestro código lo puede ver las subclases
+
+también lo pueden ver pero si toma nuestro código como librería para utilizarlo en otro pues no van
+
+a poder ver esos métodos y esas variables si no tienen modificador aquí es la parte un poco más confusa
+
+todo nuestro código si lo puede ver las subclases dentro de nuestro código.
+
+Si la pueden ver pero las subclases dentro del código de otras personas no lo pueden ver cómo funciona
+
+esto por ejemplo tenemos la clase media en nuestro caso Sirius y Mubi sí podrían ver una variable que
+
+que no tenga modificador porque está dentro de nuestro mismo código pero si alguien más toma nuestro
+
+código no lo va a poder ver vamos a modificar un poco esta tabla para que tenga más sentido.
+
+Vamos a poner sus clases dentro de nuestro código
+
+y vamos a poner aquí sus.
+
+Dentro del código de otros
+
+en este caso si no hay modificador aquí sí lo va a poder ver pero aquí no va a poder ver esto.
+
+Y en Privé pues de nuevo no puedes ver nada que esté fuera de la clase.

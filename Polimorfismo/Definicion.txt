@@ -1,0 +1,1 @@
+significa que si tenemos un método en el padre podemos ejecutar ese método de maneras distintas en los dos hijos.
